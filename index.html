@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>mv-menu</title>
+
+  <link rel="stylesheet" href="./css/meveo-theme.css"/>
+  <style>
+      #menu2 {
+        --p-color:#ffff00;
+        --on-p-color:#000044;
+      }
+  </style>
+  <script type="module" src="https://cdn.jsdelivr.net/gh/manaty/mv-menu@master/web_modules/mv-menu.js"></script>
+</head>
+
+<body>
+    <h1>Color theming demo</h1>
+
+    <h2>Importing and using a theme</h2>
+    <p>We included the theme by importing the theme css file. It then applies to all meveo component you will use :</p>
+    <mv-menu>
+        <mv-menu text="File">
+            <mv-menu text="New File" shortcut="Ctrl+Shift+N"></mv-menu>
+        </mv-menu>
+        <mv-menu text="Edit">
+            <mv-menu text="Undo" shortcut="Ctrl+U"  disabled=true action="alert('Undo')"></mv-menu>
+        </mv-menu>
+        <mv-menu text="Help">
+            <mv-menu text="Welcome"></mv-menu>
+        </mv-menu>
+    </mv-menu>
+
+    
+    <h2>Overiding theme in a stylesheet</h2>
+    <p>In this second menu we overrided the theme by redifining the css theme variable in an embedded stylsheet</p>
+    <mv-menu id="menu2">
+        <mv-menu text="File">
+            <mv-menu text="New File" shortcut="Ctrl+Shift+N"></mv-menu>
+        </mv-menu>
+        <mv-menu text="Edit">
+            <mv-menu text="Undo" shortcut="Ctrl+U"  disabled=true action="alert('Undo')"></mv-menu>
+        </mv-menu>
+        <mv-menu text="Help">
+            <mv-menu text="Welcome"></mv-menu>
+        </mv-menu>
+    </mv-menu>
+    
+    <h2>Overiding theme in the tags</h2>
+    <p>In this third menu we overrided the theme by setting the css theme variable directly in the tags</p>
+    <mv-menu>
+        <mv-menu text="File" style="--p-color:#ff0000">
+            <mv-menu text="New File" shortcut="Ctrl+Shift+N"></mv-menu>
+        </mv-menu>
+        <mv-menu text="Edit">
+            <mv-menu text="Undo" shortcut="Ctrl+U"  disabled=true action="alert('Undo')"></mv-menu>
+        </mv-menu>
+        <mv-menu text="Help" style="--p-color:#0000ff">
+            <mv-menu text="Welcome"></mv-menu>
+        </mv-menu>
+    </mv-menu>
+</body>
