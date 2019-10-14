@@ -12,11 +12,14 @@ Containers, Buttons, modal, transitions,...
 The outcome of the designing process will be used by managers, UI designers, developers, marketers
 and must be share on meveo drive.
 
+To run the example, clone the repo and open the index.html using a webserver.  
+You can also check the [demo](https://manaty.net/mv-theme/). 
+
 
 ## Colors
 The meveo color theme is inspired from [Material](https://material.io/design/color/the-color-system.html) and [Prototypr](https://blog.prototypr.io/basic-ui-color-guide-7612075cc71a). 
 
-Check the index.html file to see how to override them colors.
+Check the index.html file to see how to override theme colors.
 
 When creating your color theme, [keep in the accessibility](https://webaim.org/).  
 Some tools can help:  
