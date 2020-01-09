@@ -116,4 +116,150 @@ html {
     --line-height-xs: 1.25;
     --line-height-s: 1.375;
     --line-height-m: 1.625;
+
+    /* mv-menu */
+    --mv-dropdown-level-width: 265px;
+    --mv-dropdown-level-height: 95px;
+    --mv-dropdown-sublevel-width: 198px;
+    --mv-dropdown-sublevel-height: 41px;
+    --mv-dropdown-background-color: #3F4753;
+    --mv-dropdown-hover-background-color: #353F4D;
+    --mv-dropdown-sublevel-position-top: 100px;
+    --mv-dropdown-sublevel-position-left: 0px;
+    --mv-notification-sublevel-height: 400px;
+    --mv-notification-sublevel-width: 756px;
+    --mv-notification-level-size: 48px;
+    --mv-notification-button-background-color: #3F4753;
+    --mv-notification-button-hover-background-color: #353F4D;
+    --mv-notification-title-color: #FFFFFF;
+
+    /* mv-header */
+    --mv-header-background: #373E48;
+    --mv-header-height: 66px;
+    --mv-header-shadow: 0 2px 15px 0 rgba(0,0,0,0.2);
+    --mv-header-margin-left: 0;
+    --mv-header-margin-right: 0;
+    --mv-header-margin-bottom: 1px;
+
+    /* mv-menu-panel */
+    --menu-width: var(--mv-menu-panel-width, 330px);
+    --menu-header-font-size: var(--mv-menu-panel-header-font-size, 24px);
+    --menu-header-height: var(--mv-menu-panel-header-height, 66px);
+    --menu-header-color: var(--mv-menu-panel-header-color, #FFFFFF);
+    --menu-header-background: var(--mv-menu-panel-header-background, linear-gradient(45deg, rgba(232, 179, 56, 1) 0%, rgba(255, 150, 0, 1) 100%));
+    --menu-item-font-size: var(--mv-menu-panel-item-font-size, 16px);
+    --menu-item-color: var(--mv-menu-panel-item-color, #FFFFFF);
+    --menu-item-height: var(--mv-menu-panel-item-height, 40px);
+    --menu-item-padding: var(--mv-menu-panel-item-padding, 20px);
+    --menu-background: var(--mv-menu-panel-background, linear-gradient(180deg, rgba(63, 71, 83, 1) 0%, rgba(26, 30, 35, 1) 100%));
+    --menu-shadow: var(--mv-menu-panel-shadow, 0 0 16px 1px rgba(151, 156, 163, 0.35));
+    --selected-highlight: var(--mv-menu-panel-selected-highlight, rgba(26, 30, 35, 0.6));
+    --disabled-color: var(--mv-menu-panel-disabled-color, #898C91);
+    --hover-color: var(--mv-menu-panel-hover-color, #00D8FF);
+    --hover-background: var(--mv-menu-panel-hover-background, rgba(26, 30, 35, 0.4));
+    --group-icon-size: calc(var(--menu-item-font-size) * 0.3);
+
+    /* mv-main */
+    --mv-header-height: 0;
+    --mv-footer-height: 0;
+    --mv-content-padding: 20px;
+    --mv-menu-panel-width: 0;
+
+    /* mv-footer */
+    --mv-footer-height: 40px;
+    --mv-footer-background: #F3F3F3;
+    --mv-footer-shadow: 0 5px 10px 0 rgba(7,17,26,0.2);
+    --mv-footer-margin-top: 1px;
+    --mv-footer-margin-left: 0;
+    --mv-footer-margin-right: 0;
+    --mv-footer-item-padding: 10px;
+    --mv-footer-item-color: #B0B3B6;
+
+    /* mv-button */
+    --mv-button-margin: 5px;
+    --mv-button-padding: 16px 59px;
+
+    /* mv-table */
+    --table-row-height: 66px;
+    --header-font-family: Arial;
+
+    /* mv-pagination */
+    --pagination-group-top-margin: 10px;
+    --pagination-button-font-size: 16px;
+    --pagination-button-font-weight: normal;
+    --pagination-button-font-size-large: 24px;
+    --pagination-button-font-weight-large: bold;
+
+    /* mv-toggle */
+    --mv-toggle-label-font-family: var(--font-family, Arial);
+    --mv-toggle-label-font-size: var(--font-size-m, 10pt);
+    --width: var(--mv-toggle-custom-size, 100px);
+    --height: calc(var(--width) / 2);
+    --slider-size: calc((var(--width) / 2) - 2px);
+    --not-checked-input-color: var(--mv-toggle-not-checked, #CCCCCC);
+    --checked-input-color: var(--mv-toggle-checked, #48c9c4);
+    --slider-color: var(--mv-slider-color, #3F4753);
+
+    /* mv-tooltip */
+    --mv-tooltip-font-family: var(--font-family, Arial);
+    --mv-tooltip-content-font-size: var(--font-size-m, 10pt);
+    --mv-tooltip-title-font-size: var(--font-size-xl, 12pt);
+    --mv-close-button-font-size: var(--font-size-l, 11pt);
+    --mv-tooltip-height: 39px;
+    --mv-tooltip-background: #363F4C;
+    --mv-tooltip-color: #FFFFFF;
+    --mv-tooltip-border-radius: 5px;
+
+    /* mv-calendar */
+    --mv-container-min-width: 420px;
+    --mv-container-max-width: 420px;
+    --mv-table-padding: 3px 5px;
+    --mv-calendar-width: 280px;
+
+    /* mv-tab */
+    --mv-tab-padding-bottom: 0px;
+    --mv-tab-width: 100%;
+    --mv-tab-font-size: 20px;
+    --mv-tab-height: 71px;
+    --mv-tab-background-color: #DFE7EE;
+    --mv-tab-color: #67AFD3;
+    --mv-tab-color-active: #FFFFFF;
+    --mv-tab-background-color-active: radial-gradient(circle , #007adf 0%, #00ec76 180%);
+    --mv-tab-icon-width: 29px;
+    --mv-tab-icon-height: 29px;
+
+    /* mv-select */
+    --mv-select-font-family: var(--font-family, Arial);
+    --mv-select-font-size: var(--font-size-m, 10pt);
+    --mv-select-color: #777;
+    --mv-select-width: 200px;
+    --input-padding: var(--mv-select-input-padding, 4px);
+    --outside-padding: calc(var(--input-padding) * 2);
+    --max-height: calc(var(--mv-select-font-size) + var(--outside-padding));
+    --input-height: var(--max-height);
+    --total-height: calc(var(--max-height) + var(--outside-padding));
+    --full-height: calc(var(--total-height) + 2px);
+    --border: var(--mv-select-border, 1px solid #ccc);
+    --border-radius: var(--mv-select-border-radius, 5px);
+    --clear-icon-size: var(--mv-select-clear-icon-size, var(--mv-select-font-size));
+    --dropdown-icon-button-margin: var(--input-padding);
+    --dropdown-icon-size: var(--mv-select-dropdown-icon-size, calc(var(--mv-select-font-size) * 0.75));
+    --dropdown-icon-button-size: calc(var(--dropdown-icon-size) + var(--dropdown-icon-button-margin));
+    --dropdown-icon-total-width: calc(var(--dropdown-icon-button-size) + var(--input-padding));
+    --button-section-width: calc(var(--dropdown-icon-total-width) * 2);
+    --dropdown-icon-button-color: var(--mv-select-dropdown-icon-button-color, var(--color));
+    --option-max-height: var(--mv-select-option-max-height, 250px);
+    --option-color: var(--mv-select-option-color, var(--color));
+    --option-background: var(--mv-select-option-background, #FFFFFF);
+    --option-hover-background: var(--mv-select-option-hover-background, #1D9BC9);
+    --option-hover-color: var(--mv-select-option-hover-color, #FFFFFF);
+    --option-item-padding: var(--mv-select-option-max-height, 10px);
+
+    /* mv-breadcrumbs */
+    --mv-font-family: Arial;
+    --mv-font-size-m: 1.2rem;
+    --mv-breadcrumbs-color: #4F4F4F;
+    --mv-breadcrumbs-link-decoration: underline;
+    --mv-breadcrumbs-hover-color: #B8CCE0;
+    --mv-breadcrumbs-separator-margin: 0 10px;
 }
