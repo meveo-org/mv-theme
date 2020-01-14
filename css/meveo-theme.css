@@ -245,4 +245,28 @@ html {
     --mv-dialog-border-radius: 5px;
     --mv-dialog-color-close-icon: #48C5B9;
     --mv-dialog-color: #80828C;
+
+    /* mv-breadcrumbs */
+    --mv-breadcrumbs-color: #4F4F4F;
+    --mv-breadcrumbs-link-decoration: underline;
+    --mv-breadcrumbs-hover-color: #B8CCE0;
+    --mv-breadcrumbs-separator-margin: 0 10px;
+
+    /* mv-container */
+    --mv-container-min-width: 300px;
+    --mv-container-max-width: 500px;
+    --mv-container-margin: 20px auto;
+    --mv-container-padding: 20px;
+    --mv-container-border: 1px solid #BFBFBF;
+    --mv-container-background: #FFFFFF;
+    --mv-container-shadow: 10px 10px 5px #aaaaaa;
+
+    /* mv-calendar */
+    --mv-calendar-input-background-color: #FFFFFF;
+    --mv-calendar-input-border-input: solid 1px #4E686D;
+    --mv-calendar-input-width: 100%;
+    --mv-calendar-single-background-color: #3F4753;
+    --mv-calendar-single-button-background-color: #39404B;
+    --mv-calendar-hover-background-color: #666;
+    --mv-calendar-active-background-color: linear-gradient(to right, #007ADF 0%, #00ECBC 180%);
 }
