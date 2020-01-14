@@ -152,6 +152,9 @@ html {
     --mv-notification-button-background-color: #3F4753;
     --mv-notification-button-hover-background-color: #353F4D;
     --mv-notification-title-color: #FFFFFF;
+    --mv-notification-background-color: #3F4753;
+    --mv-notification-sublevel-position-top: 80px;
+    --mv-notification-sublevel-position-left: -375px;
 
     /* mv-menu-panel */
     --mv-menu-panel-width: 330px;
@@ -163,10 +166,10 @@ html {
     --mv-menu-panel-item-padding: 20px;
     --mv-menu-panel-background: linear-gradient(180deg, rgba(63, 71, 83, 1) 0%, rgba(26, 30, 35, 1) 100%);
     --mv-menu-panel-shadow: 0 0 16px 1px rgba(151, 156, 163, 0.35);
-    --mv-menu-panel-selected-highlight: rgba(26, 30, 35, 0.6));
+    --mv-menu-panel-selected-highlight: rgba(26, 30, 35, 0.6);
     --mv-menu-panel-disabled-color: #898C91;
     --mv-menu-panel-hover-color: #00D8FF;
-    --mv-menu-panel-hover-background: rgba(26, 30, 35, 0.4));
+    --mv-menu-panel-hover-background: rgba(26, 30, 35, 0.4);
 
     /* mv-button */
     --mv-button-circle-button-size: 55px;
@@ -185,55 +188,61 @@ html {
     --pagination-button-font-weight-large: bold;
 
     /* mv-toggle */
-    --mv-toggle-label-font-family: var(--font-family, Arial);
-    --width: var(--mv-toggle-custom-size, 100px);
-    --height: calc(var(--width) / 2);
-    --slider-size: calc((var(--width) / 2) - 2px);
-    --not-checked-input-color: var(--mv-toggle-not-checked, #CCCCCC);
-    --checked-input-color: var(--mv-toggle-checked, #48c9c4);
-    --slider-color: var(--mv-slider-color, #3F4753);
+    --mv-toggle-label-font-family: var(--font-family);
+    --mv-toggle-custom-size: 100px;
+    --mv-toggle-not-checked: #CCCCCC;
+    --mv-toggle-checked: #48c9c4;
+    --mv-slider-color: #3F4753;
 
     /* mv-tooltip */
-    --mv-tooltip-font-family: var(--font-family, Arial);
+    --mv-tooltip-font-family: var(--font-family);
     --mv-tooltip-height: 39px;
     --mv-tooltip-background: #363F4C;
     --mv-tooltip-color: #FFFFFF;
     --mv-tooltip-border-radius: 5px;
 
     /* mv-tab */
-    --mv-tab-padding-bottom: 0px;
-    --mv-tab-width: 100%;
-    --mv-tab-height: 71px;
-    --mv-tab-background-color: #DFE7EE;
-    --mv-tab-color: #67AFD3;
-    --mv-tab-color-active: #FFFFFF;
-    --mv-tab-background-color-active: radial-gradient(circle , #007adf 0%, #00ec76 180%);
-    --mv-tab-icon-width: 29px;
-    --mv-tab-icon-height: 29px;
+    --mv-tab-header-height: 71px;
+    --mv-tab-header-background-color: #DFE7EE;
+    --mv-tab-header-background-color-active: radial-gradient(circle , #007adf 0%, #00ec76 180%);
+    --mv-tab-header-first-background-color-active: linear-gradient(to right, #007adf 0%, #00ec76 180%);
+    --mv-tab-header-last-background-color-active: linear-gradient(to left, #007adf 0%, #00ec76 180%);
+    --mv-tab-header-color: #67AFD3;
+    --mv-tab-header-color-active: #FFFFFF;
+    --mv-tab-header-border-color: #99D2E7;
+    --mv-tab-header-border-radius: 5px;
+    --mv-tab-rounded-height: 51px;
+    --mv-tab-rounded-background-color: #FFFFFF;
+    --mv-tab-rounded-background-color-active: #4E686D;
+    --mv-tab-rounded-color: #4E686D;
+    --mv-tab-rounded-color-active: #FFFFFF;
+    --mv-tab-rounded-border-radius: 25px;
+    --mv-tab-icon-size: 29px;
+    --mv-tab-icon-background-color: #FFFFFF;
+    --mv-tab-icon-color: #4E686D;
+    --mv-tab-icon-background-color-active: #4E686D;
+    --mv-tab-icon-color-active: #FFFFFF;
+    --mv-tab-icon-border-radius: 5px;
 
     /* mv-select */
-    --mv-select-font-family: var(--font-family, Arial);
+    --mv-select-font-family: var(--font-family);
     --mv-select-color: #777;
     --mv-select-width: 200px;
-    --input-padding: var(--mv-select-input-padding, 4px);
-    --outside-padding: calc(var(--input-padding) * 2);
-    --max-height: calc(var(--mv-select-font-size) + var(--outside-padding));
-    --input-height: var(--max-height);
-    --total-height: calc(var(--max-height) + var(--outside-padding));
-    --full-height: calc(var(--total-height) + 2px);
+    --mv-select-input-padding: 4px;
     --mv-select-border: 1px solid #ccc;
     --mv-select-border-radius: 5px;
-    --mv-select-clear-icon-size: var(--mv-select-font-size);
-    --dropdown-icon-button-margin: var(--input-padding);
-    --dropdown-icon-size: var(--mv-select-dropdown-icon-size, calc(var(--mv-select-font-size) * 0.75));
-    --dropdown-icon-button-size: calc(var(--dropdown-icon-size) + var(--dropdown-icon-button-margin));
-    --dropdown-icon-total-width: calc(var(--dropdown-icon-button-size) + var(--input-padding));
-    --button-section-width: calc(var(--dropdown-icon-total-width) * 2);
-    --mv-select-dropdown-icon-button-color: var(--color));
-    --mv-select-option-max-height: 250px;
-    --mv-select-option-color: var(--color);
+    --mv-select-dropdown-icon-size: calc(var(--font-size-m) * 0.75);
+    --mv-select-dropdown-icon-button-color: var(--mv-select-color);
+    --mv-select-option-color: var(--mv-select-color);
     --mv-select-option-background: #FFFFFF;
     --mv-select-option-hover-background: #1D9BC9;
     --mv-select-option-hover-color: #FFFFFF;
-    --mv-select-option-max-height: 10px;
+
+    /* mv-dialog */
+    --mv-dialog-max-height: 528px;
+    --mv-dialog-width: 756px;
+    --mv-dialog-background-color: #FFFFFF;
+    --mv-dialog-border-radius: 5px;
+    --mv-dialog-color-close-icon: #48C5B9;
+    --mv-dialog-color: #80828C;
 }
