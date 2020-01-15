@@ -269,4 +269,24 @@ html {
     --mv-calendar-single-button-background-color: #39404B;
     --mv-calendar-hover-background-color: #666;
     --mv-calendar-active-background-color: linear-gradient(to right, #007ADF 0%, #00ECBC 180%);
+
+    /* mv-radio */
+    --mv-radio-padding-left: 35px;
+    --mv-radio-margin-bottom: 12px;
+    --mv-radio-radio-height: 18px;
+    --mv-radio-radio-width: 18px;
+    --mv-radio-light-background-color: #FFFFFF;
+    --mv-radio-light-border: 1px solid #4E686D;
+    --mv-radio-light-color: #818181;
+    --mv-radio-light-hover-background-color: #FFFFFF;
+    --mv-radio-light-hover-border: 1px solid #1D9BC9;
+    --mv-radio-light-checked-background-color: #FFFFFF;
+    --mv-radio-light-checkmark-background-color: #1D9BC9;
+    --mv-radio-dark-color: #FFFFFF;
+    --mv-radio-dark-background-color: #3F4753;
+    --mv-radio-dark-border: 1px solid #FFF;
+    --mv-radio-dark-hover-background-color: #656C75;
+    --mv-radio-dark-hover-border: 1px solid #FFFFFF;
+    --mv-radio-dark-checked-background-color: #3F4753;
+    --mv-radio-dark-checkmark-background-color: #FFFFFF;
 }
