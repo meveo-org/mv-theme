@@ -151,10 +151,10 @@ html {
     --mv-notification-level-size: 48px;
     --mv-notification-button-background-color: #3F4753;
     --mv-notification-button-hover-background-color: #353F4D;
-    --mv-notification-title-color: #FFFFFF;
+    --mv-notification-color: #FFFFFF;
     --mv-notification-background-color: #3F4753;
     --mv-notification-sublevel-position-top: 80px;
-    --mv-notification-sublevel-position-left: -375px;
+    --mv-notification-sublevel-position-left: -355px;
 
     /* mv-menu-panel */
     --mv-menu-panel-width: 330px;
