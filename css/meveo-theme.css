@@ -117,6 +117,16 @@ html {
     --line-height-s: 1.375;
     --line-height-m: 1.625;
 
+    /* light */
+    --light-1-background: #FFFFFF;
+    --light-2-background: #F5F6FA;
+    --light-3-background: #EDEDED;
+
+    /* dark */
+    --dark-1-background: #4E686D;
+    --dark-2-background: #23404C;
+    --dark-3-background: #373E48;
+
     /* mv-header */
     --mv-header-background: #373E48;
     --mv-header-height: 66px;
@@ -181,6 +191,12 @@ html {
     /* mv-table */
     --table-row-height: 66px;
     --header-font-family: Arial;
+    --mv-table-head-light-background: var(--light-2-background);
+    --mv-table-body-light-background: var(--light-1-background);
+    --mv-table-hover-light-background: var(--light-3-background);
+    --mv-table-head-dark-background: var(--dark-2-background);
+    --mv-table-body-dark-background: var(--dark-3-background);
+    --mv-table-hover-dark-background: var(--dark-1-background);
 
     /* mv-pagination */
     --pagination-group-top-margin: 10px;
