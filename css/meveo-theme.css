@@ -265,7 +265,7 @@ html {
 
     /* mv-tooltip */
     --mv-tooltip-font-family: var(--font-family);
-    --mv-tooltip-height: 39px;
+    --mv-tooltip-height: 29px;
     --mv-tooltip-border-radius: 5px;
     --mv-tooltip-background: var(--dark-10-background);
     --mv-tooltip-color: var(--light-1-text);
