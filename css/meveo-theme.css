@@ -127,12 +127,18 @@ html {
     --light-6-background: #F3F3F3;
     --light-7-background: #CCCCCC;
     --light-8-background: #007ADF;
+    --light-9-background: #EAEBF0;
+    --light-10-background: #1E87F0;
+    --light-11-background: #1D9BC9;
+    --light-12-background: #0792C5;
     /* text */
     --light-1-text: #FFFFFF;
     --light-2-text: #00D8FF;
     --light-3-text: #999999;
     /* border */
     --light-1-border: #99D2E7;
+    --light-2-border: #1D9BC9;
+    --light-3-border: #FFFFFF;
 
     /* dark */
     /* background */
@@ -146,12 +152,17 @@ html {
     --dark-8-background: #39404B;
     --dark-9-background: #1E3843;
     --dark-10-background: #363F4C;
+    --dark-11-background: #656C75;
     /* text */
     --dark-1-text: #80828C;
     --dark-2-text: #000000;
     --dark-3-text: #B0B3B6;
     --dark-4-text: #363F4C;
     --dark-5-text: #4E686D;
+    --dark-6-text: #4F4F4F;
+    --dark-7-text: #B8CCE0;
+    --dark-8-text: #818181;
+    --dark-9-text: #C8C6C6;
     /* border */
     --dark-1-border: #4E686D;
 
@@ -252,6 +263,14 @@ html {
     --pagination-group-top-margin: 10px;
     --pagination-button-font-weight: normal;
     --pagination-button-font-weight-large: bold;
+    --mv-pagination-light-background: var(--light-9-background);
+    --mv-pagination-dark-background: #3999C1;
+    --mv-pagination-selected-light-background: #008FC3;
+    --mv-pagination-selected-dark-background: var(--dark-2-background);
+    --mv-pagination-light-color: var(--dark-1-text);
+    --mv-pagination-dark-color: var(--light-1-text);
+    --mv-pagination-hover-light-background: var(--light-1-background);
+    --mv-pagination-hover-dark-background: #007FAD;
 
     /* mv-toggle */
     --mv-toggle-label-font-family: var(--font-family);
@@ -327,16 +346,20 @@ html {
     /* mv-dialog */
     --mv-dialog-max-height: 528px;
     --mv-dialog-width: 756px;
-    --mv-dialog-background-color: #FFFFFF;
     --mv-dialog-border-radius: 5px;
+    --mv-dialog-background-color: var(--light-1-background);
+    --mv-dialog-dark-background: var(--dark-3-background);
     --mv-dialog-color-close-icon: #48C5B9;
-    --mv-dialog-color: #80828C;
+    --mv-dialog-color: var(--dark-1-text);
+    --mv-dialog-dark-color: var(--light-1-text);
 
     /* mv-breadcrumbs */
-    --mv-breadcrumbs-color: #4F4F4F;
     --mv-breadcrumbs-link-decoration: underline;
-    --mv-breadcrumbs-hover-color: #B8CCE0;
     --mv-breadcrumbs-separator-margin: 0 10px;
+    --mv-breadcrumbs-color: var(--dark-6-text);
+    --mv-breadcrumbs-hover-color: var(--dark-7-text);
+    --mv-breadcrumbs-dark-color: var(--light-1-text);
+    --mv-breadcrumbs-hover-dark-color: var(--dark-7-text);
 
     /* mv-container */
     --mv-container-min-width: 300px;
@@ -350,7 +373,7 @@ html {
     /* mv-calendar */
     --mv-calendar-select-max-width: 200px;
     --mv-calendar-input-width: 100%;
-    --mv-calendar-input-border-input: solid 1px #4E686D;
+    --mv-calendar-input-border-input: solid 1px var(--dark-1-border);
     --mv-calendar-hover-background-color: #666;
     --mv-calendar-active-background-color: linear-gradient(to right, #007ADF 0%, #00ECBC 180%);
     --mv-calendar-input-light-background: var(--light-1-background);
@@ -369,20 +392,20 @@ html {
     --mv-radio-margin-bottom: 12px;
     --mv-radio-radio-height: 18px;
     --mv-radio-radio-width: 18px;
-    --mv-radio-light-background-color: #FFFFFF;
-    --mv-radio-light-border: 1px solid #4E686D;
-    --mv-radio-light-color: #818181;
-    --mv-radio-light-hover-background-color: #FFFFFF;
-    --mv-radio-light-hover-border: 1px solid #1D9BC9;
-    --mv-radio-light-checked-background-color: #FFFFFF;
-    --mv-radio-light-checkmark-background-color: #1D9BC9;
-    --mv-radio-dark-color: #FFFFFF;
-    --mv-radio-dark-background-color: #3F4753;
-    --mv-radio-dark-border: 1px solid #FFF;
-    --mv-radio-dark-hover-background-color: #656C75;
-    --mv-radio-dark-hover-border: 1px solid #FFFFFF;
-    --mv-radio-dark-checked-background-color: #3F4753;
-    --mv-radio-dark-checkmark-background-color: #FFFFFF;
+    --mv-radio-light-background-color: var(--light-1-background);
+    --mv-radio-light-border: 1px solid var(--dark-1-border);
+    --mv-radio-light-color: var(--dark-8-text);
+    --mv-radio-light-hover-background-color: var(--light-1-background);
+    --mv-radio-light-hover-border: 1px solid var(--light-2-border);
+    --mv-radio-light-checked-background-color: var(--light-1-background);
+    --mv-radio-light-checkmark-background-color: var(--light-11-background);
+    --mv-radio-dark-color: var(--light-1-text);
+    --mv-radio-dark-background-color: var(--dark-4-background);
+    --mv-radio-dark-border: 1px solid var(--light-3-border);
+    --mv-radio-dark-hover-background-color: var(--dark-11-background);
+    --mv-radio-dark-hover-border: 1px solid var(--light-3-border);
+    --mv-radio-dark-checked-background-color: var(--dark-4-background);
+    --mv-radio-dark-checkmark-background-color: var(--light-1-background);
 
     /* mv-toast */
     --mv-toast-dark-background: var(--dark-1-background);
@@ -401,4 +424,58 @@ html {
     --mv-dropdown-light-background: var(--light-1-background);
     --mv-dropdown-light-color: var(--dark-1-text);
     --mv-dropdown-header-light-color: var(--dark-2-text);
+
+    /* mv-tags */
+    --mv-tags-color: var(--dark-8-text);
+    --mv-tags-min-width: auto;
+    --mv-tags-max-width: auto;
+    --mv-tags-margin: 0;
+    --mv-tags-border: 1px solid var(--dark-1-border);
+    --mv-tags-active-border: 1px solid var(--light-2-border);
+    --mv-tags-placeholder-color: var(--dark-9-text);
+    --mv-tags-active-box-shadow: inset 0 0 9px 0 rgba(29, 155, 201, 0.3);
+    --mv-tags-error-border: 1px solid rgba(247, 112, 98, 1);
+    --mv-tags-error-box-shadow: inset 0 0 9px 0 rgba(229, 47, 47, 0.3);
+    --mv-tags-light-background: var(--light-10-background);
+    --mv-tags-dark-background: var(--dark-3-background);
+
+    /* mv-textarea */
+    --mv-textarea-color: var(--dark-8-text);
+    --mv-textarea-width: 620px;
+    --mv-textarea-height: 153px;
+    --mv-textarea-margin: 0;
+    --mv-textarea-border: 1px solid var(--dark-1-border);
+    --mv-textarea-active-border: 1px solid var(--light-2-border);
+    --mv-textarea-placeholder-color: var(--dark-1-text);
+    --mv-textarea-active-box-shadow: inset 0 0 9px 0 rgba(29, 155, 201, 0.3);
+    --mv-textarea-error-border: 1px solid rgba(247, 112, 98, 1);
+    --mv-textarea-error-box-shadow: inset 0 0 9px 0 rgba(229, 47, 47, 0.3);
+
+    /* mv-slider */
+    --mv-slider-track-light-background: linear-gradient(to left, #F01F14, #00F2FE);
+    --mv-slider-light-color: var(--dark-8-text);
+    --mv-slider-thumb-light-background: var(--light-1-background);
+    --mv-slider-tooltip-dark-border: #00F2FE;
+
+    /* mv-input */
+    --mv-input-color: var(--dark-8-text);
+    --mv-input-min-width: auto;
+    --mv-input-max-width: auto;
+    --mv-input-margin: 0;
+    --mv-input-border: 1px solid var(--dark-1-border);
+    --mv-input-active-border: 1px solid var(--light-2-border);
+    --mv-input-placeholder-color: var(--dark-9-text);
+    --mv-input-active-box-shadow: inset 0 0 9px 0 rgba(29, 155, 201, 0.3);
+    --mv-input-error-border: 1px solid rgba(247, 112, 98, 1);
+    --mv-input-error-box-shadow: inset 0 0 9px 0 rgba(229, 47, 47, 0.3);
+
+    /* mv-checkbox */
+    --mv-checkbox-border-color: var(--dark-1-border);
+    --mv-checkbox-label-color: var(--dark-8-text);
+    --mv-checkbox-checked-background: var(--light-12-background);
+    --mv-checkbox-hover-border-color: var(--light-2-border);
+    --mv-checkbox-border-dark-color: var(--light-3-border);
+    --mv-checkbox-label-dark-color: var(--light-1-text);
+    --mv-checkbox-checked-dark-background: var(--light-1-background);
+    --mv-checkbox-hover-border-dark-color: var(--light-3-border);
 }
