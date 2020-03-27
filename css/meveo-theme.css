@@ -334,7 +334,7 @@ html {
     --mv-select-color: #777;
     --mv-select-width: 200px;
     --mv-select-input-padding: 4px;
-    --mv-select-border: 1px solid #ccc;
+    --mv-select-border: 1px solid #4e686d;
     --mv-select-border-radius: 5px;
     --mv-select-dropdown-icon-size: calc(var(--font-size-m) * 0.75);
     --mv-select-dropdown-icon-button-color: var(--mv-select-color);
