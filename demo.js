@@ -1,6 +1,6 @@
-import { LitElement, html, css } from "lit-element";
-import "mv-menu";
-import "mv-container";
+import { LitElement, html, css } from "lit";
+import "@meveo-org/mv-menu";
+import "@meveo-org/mv-container";
 
 export class MvThemeDemo extends LitElement {
   static get properties() {
