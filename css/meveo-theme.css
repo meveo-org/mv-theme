@@ -116,6 +116,17 @@ html {
     --line-height-xs: 1.25;
     --line-height-s: 1.375;
     --line-height-m: 1.625;
+    /* Table size */
+    --lightV2-head-height: 60px;
+    --lightV2-row-height: 26px !important;
+
+             /**
+     *    V2 background
+     */
+     --lightV2-1-background: #DEDEDE;
+     --lightV2-2-background: #328CC0;
+     --lightV2-3-background: #EDEDED;
+    
 
     /* light */
     /* background */
@@ -131,6 +142,7 @@ html {
     --light-10-background: #1E87F0;
     --light-11-background: #1D9BC9;
     --light-12-background: #0792C5;
+
     /* text */
     --light-1-text: #FFFFFF;
     --light-2-text: #00D8FF;
@@ -226,7 +238,7 @@ html {
     --mv-menu-panel-header-dark-color: var(--light-1-text);
     --mv-menu-panel-header-dark-background: linear-gradient(45deg, rgba(232, 179, 56, 1) 0%, rgba(255, 150, 0, 1) 100%);
     --mv-menu-panel-item-dark-color: var(--light-1-text);
-    --mv-menu-panel-dark-background: linear-gradient(180deg, rgba(63, 71, 83, 1) 0%, rgba(26, 30, 35, 1) 100%);
+    --mv-menu-panel-dark-background: linear-gradient(180deg, rgba(63, 71, 83, 1) 0%, rgba(26, 30, 35, 1) 100%);;
     --mv-menu-panel-selected-dark-highlight: rgba(26, 30, 35, 0.6);
     --mv-menu-panel-disabled-dark-color: var(--dark-7-background);
     --mv-menu-panel-hover-dark-color: var(--light-2-text);
@@ -241,7 +253,7 @@ html {
     --mv-menu-panel-hover-light-background: rgba(26, 30, 35, 0.4);
 
     /* mv-button */
-    --mv-button-circle-button-size: 55px;
+    --mv-button-circle-button-size: 30px;
     --mv-button-margin: 5px;
     --mv-button-padding: 16px 59px;
     --mv-button-min-width: 120px;
@@ -252,12 +264,28 @@ html {
     /* mv-table */
     --table-row-height: 66px;
     --header-font-family: Arial;
+    --v2-border-collapse: inherit;
     --mv-table-head-light-background: var(--light-2-background);
     --mv-table-body-light-background: var(--light-1-background);
     --mv-table-hover-light-background: var(--light-3-background);
     --mv-table-head-dark-background: var(--dark-2-background);
     --mv-table-body-dark-background: var(--dark-3-background);
     --mv-table-hover-dark-background: var(--dark-1-background);
+    --mv-table-head-classic-first-radius: 10px 0 0 0;
+    --mv-table-head-classic-last-radius: 0 10px 0 0;
+
+    --mv-table-head-lightV2-background: var(--lightV2-2-background);
+    --mv-table-body-lightV2-background: var(--lightV2-1-background);
+    --mv-table-hover-lightV2-background: var(--lightV2-3-background);
+    --mv-table-lightV2-border-collapse: inherit;
+    --mv-table-lightV2-border-spacing: 0px 14px !important;
+    --mv-table-lightV2-position: relative;
+    --mv-table-lightV2-head-height: var(--lightV2-head-height);
+    --mv-table-lightV2-row-height: var(--lightV2-row-height);
+    --mv-table-lightV2-first-radius: 10px 0 0 10px;
+    --mv-table-lightV2-last-radius: 0 10px 10px 0;
+    
+
 
     /* mv-pagination */
     --pagination-group-top-margin: 10px;
